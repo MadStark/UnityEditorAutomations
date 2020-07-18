@@ -5,7 +5,7 @@ namespace MadStark.EditorAutomations
 {
     public static class ContextMenuHandler
     {
-        [MenuItem("Assets/Editor Automations/Execute", true, 9001)]
+        [MenuItem("Assets/Execute Automation", true, 9001)]
         private static bool ExecuteValidate()
         {
             foreach (Object o in Selection.objects)
@@ -17,7 +17,7 @@ namespace MadStark.EditorAutomations
             return true;
         }
 
-        [MenuItem("Assets/Editor Automations/Execute", false, 9001)]
+        [MenuItem("Assets/Execute Automation", false, 9001)]
         private static void Execute()
         {
             foreach (Object o in Selection.objects)

@@ -32,7 +32,7 @@ namespace MadStark.EditorAutomations
             string[] scenePaths = scenes.Select(AssetDatabase.GetAssetPath).ToArray();
             BuildOptions buildOptions = GetBuildOptions();
 
-            UnityEditor.BuildPipeline.BuildPlayer(scenePaths, outputPath, EditorUserBuildSettings.activeBuildTarget, buildOptions);
+            BuildPipeline.BuildPlayer(scenePaths, outputPath, EditorUserBuildSettings.activeBuildTarget, buildOptions);
         }
 
         private string PrepareAndGetOutputPath()

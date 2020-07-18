@@ -17,5 +17,14 @@ namespace MadStark.EditorAutomations
         {
             //TODO: Read path to execute from command line args
         }
+
+        internal static void ExecuteFromContextMenu(Automation automation)
+        {
+            var context = new ExecutionContext {
+                trigger = ExecutionTrigger.ContextMenu
+            };
+
+            automation.Execute(context);
+        }
     }
 }
