@@ -1,0 +1,19 @@
+{
+  "name": "com.madstask.editorautomations",
+  "displayName": "Editor Automations",
+  "version": "0.0.1",
+  "unity": "2019.3",
+  "description": "Quickly automate and run editor tasks",
+  "dependencies": { },
+  "keywords": [
+    "editor",
+    "automate",
+    "bake",
+    "build"
+  ],
+  "author": {
+    "name": "Antoine Fougea",
+    "email": "antoine.fougea@gmail.com",
+    "url": "https://twitter.com/MadreDeDios77"
+  }
+}

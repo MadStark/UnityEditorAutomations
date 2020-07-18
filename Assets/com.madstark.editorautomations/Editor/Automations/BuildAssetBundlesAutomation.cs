@@ -16,7 +16,7 @@ namespace MadStark.EditorAutomations
         {
             Directory.CreateDirectory(outputDirectory);
 
-            var manifest = UnityEditor.BuildPipeline.BuildAssetBundles(outputDirectory, buildOptions, EditorUserBuildSettings.activeBuildTarget);
+            var manifest = BuildPipeline.BuildAssetBundles(outputDirectory, buildOptions, EditorUserBuildSettings.activeBuildTarget);
 
             if (manifest == null)
                 Debug.LogError("Something went wrong while building the asset bundles.");

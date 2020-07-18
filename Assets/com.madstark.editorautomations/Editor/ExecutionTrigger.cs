@@ -3,7 +3,7 @@ namespace MadStark.EditorAutomations
     public enum ExecutionTrigger
     {
         Script,
-
-        CommandLine
+        CommandLine,
+        ContextMenu
     }
 }

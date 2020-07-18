@@ -17,6 +17,6 @@ MonoBehaviour:
   customPlayerName: 
   automaticallyAppendExtension: 1
   automaticallySetBuildOptions: 1
-  overrideBuildOptions: 8
+  overrideBuildOptions: 1
   scenes:
   - {fileID: 102900000, guid: 9fc0d4010bbf28b4594072e72b8655ab, type: 3}
