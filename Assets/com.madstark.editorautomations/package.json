@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "unity": "2019.3",
   "description": "Quickly automate and run editor tasks",
-  "dependencies": { },
+  "dependencies": {},
   "keywords": [
     "editor",
     "automate",
@@ -12,8 +12,16 @@
     "build"
   ],
   "author": {
-    "name": "Antoine Fougea",
-    "email": "antoine.fougea@gmail.com",
+    "name": "MadStark",
     "url": "https://twitter.com/MadreDeDios77"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MadStark/UnityEditorAutomations.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MadStark/UnityEditorAutomations/issues"
+  },
+  "homepage": "https://github.com/MadStark/UnityEditorAutomations#readme"
 }
